@@ -9,6 +9,17 @@
   "files": [
     "bin/"
   ],
+  "scripts": {
+    "test": "jest --runInBand --forceExit"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 15000,
+    "testMatch": ["<rootDir>/tests/**/*.test.js"]
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
   "engines": {
     "node": ">=14"
   },
