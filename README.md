@@ -63,6 +63,13 @@ jest-by-line api:60 --debug
 # Then open chrome://inspect in Chrome
 ```
 
+## Development
+
+```bash
+npm test             # run all tests
+npm test -- --verbose  # with per-test output
+```
+
 ## License
 
 MIT
