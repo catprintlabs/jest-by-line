@@ -1,0 +1,33 @@
+{
+  "name": "jest-by-line",
+  "version": "1.0.0",
+  "description": "Run a single Jest test by file and line number — like RSpec",
+  "main": "bin/jest-by-line.js",
+  "bin": {
+    "jest-by-line": "bin/jest-by-line.js"
+  },
+  "files": [
+    "bin/"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "jest",
+    "test",
+    "line",
+    "rspec",
+    "cli",
+    "runner"
+  ],
+  "author": "Mitch Van Duyn <mitch@catprint.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catprintlabs/jest-by-line.git"
+  },
+  "bugs": {
+    "url": "https://github.com/catprintlabs/jest-by-line/issues"
+  },
+  "homepage": "https://github.com/catprintlabs/jest-by-line#readme"
+}
